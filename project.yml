@@ -1,0 +1,21 @@
+name: GoonTracker
+options:
+  bundleIdPrefix: com.edui
+targets:
+  GoonTracker:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources: [GoonTracker]
+    info:
+      path: GoonTracker/Info.plist
+      properties:
+        CFBundleDisplayName: GoonTracker
+        UILaunchScreen: {}
+        NSFaceIDUsageDescription: Lock the app with Face ID
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.edui.goontracker
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
