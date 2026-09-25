@@ -13,6 +13,7 @@ targets:
         CFBundleDisplayName: GoonTracker
         UILaunchScreen: {}
         NSFaceIDUsageDescription: Lock the app with Face ID
+        NSPhotoLibraryUsageDescription: Used to add photos to your Gooning Photos tab
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
     settings:
       base:
